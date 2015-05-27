@@ -8,9 +8,9 @@ https://registry.hub.docker.com/u/mcandre/docker-haskell/
 
 ```
 $ make
-docker run --rm mcandre/docker-haskell:latest ghc --version
+docker run --rm mcandre/docker-haskell:7.6 ghc --version
 The Glorious Glasgow Haskell Compilation System, version 7.6.3
-docker run --rm mcandre/docker-haskell:latest cabal --version
+docker run --rm mcandre/docker-haskell:7.6 cabal --version
 cabal-install version 1.16.0.2
 using version 1.16.0 of the Cabal library
 ```

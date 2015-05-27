@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-haskell:latest
+IMAGE=mcandre/docker-haskell:7.6
 
 all: run
 
