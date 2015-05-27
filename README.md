@@ -8,8 +8,8 @@ https://registry.hub.docker.com/u/mcandre/docker-haskell/
 
 ```
 $ make
-docker run --rm mcandre/docker-haskell:5.04 ghc --version
-The Glorious Glasgow Haskell Compilation System, version 5.04.3
+docker run --rm mcandre/docker-haskell:4.08 ghc --version
+The Glorious Glasgow Haskell Compilation System, version 4.08.1
 ```
 
 # REQUIREMENTS
