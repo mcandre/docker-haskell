@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-haskell:6.12
+IMAGE=mcandre/docker-haskell:5.04
 
 all: run
 
@@ -7,7 +7,6 @@ build: Dockerfile
 
 run: clean-containers build
 	docker run --rm $(IMAGE) ghc --version
-	docker run --rm $(IMAGE) cabal --version
 
 clean-containers:
 	-docker ps -a | grep -v IMAGE | awk '{ print $$1 }' | xargs docker rm -f

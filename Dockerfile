@@ -1,4 +1,4 @@
-FROM ubuntu:lucid
+FROM mcandre/docker-debian:sarge
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
 RUN apt-get update && \
-    apt-get install -y ghc cabal-install
+    apt-get install -y ghc5
